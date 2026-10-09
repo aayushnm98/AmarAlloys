@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:oklch(0.62 0.03 215)"/><stop offset="1" style="stop-color:oklch(0.33 0.03 220)"/></linearGradient>
+<filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.004 0.8" numOctaves="3" seed="7"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1.1 0 0 0 -0.35"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<rect width="800" height="1000" filter="url(#n)" opacity="0.32"/>
+<text x="400" y="492" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#fff" fill-opacity="0.95">Workshop photo</text>
+<text x="400" y="526" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#fff" fill-opacity="0.85">Replace this with your own photo</text>
+</svg>

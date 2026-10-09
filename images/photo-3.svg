@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:oklch(0.74 0.09 88)"/><stop offset="1" style="stop-color:oklch(0.42 0.06 80)"/></linearGradient>
+<filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.004 0.8" numOctaves="3" seed="7"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1.1 0 0 0 -0.35"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#g)"/>
+<rect width="1200" height="900" filter="url(#n)" opacity="0.32"/>
+<text x="600" y="442" text-anchor="middle" font-family="Georgia, serif" font-size="54" fill="#fff" fill-opacity="0.95">Brass rods photo</text>
+<text x="600" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" fill="#fff" fill-opacity="0.85">Replace this with your own photo</text>
+</svg>
